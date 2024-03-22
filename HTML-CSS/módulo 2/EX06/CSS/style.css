@@ -1,0 +1,76 @@
+/*Configurações iniciais*/
+
+@charset "UTF-8";
+@font-face {
+    font-family: "NGNL";
+    src: url(../fonts/no_game_no_life_logo_font__free_dl__by_japanyoshi-d7o4t6u.ttf) format(truetype);
+    font-size: normal;
+    font-weight: normal;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Configurações principais do site*/
+body {
+    background-color:#bbacf2a3;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main {
+    margin: auto;
+    height: 200px;
+    width: 500px;
+    background-color:#7A36D9;
+    border: 1px solid #1F1D2B;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #7a36d9a5; 
+}
+
+/*Configurações de tags*/
+h1 {
+    font-family: "NGNL";
+    text-align: center;
+    color: #BBACF2;
+    font-size: normal;
+    font-weight: small;
+    text-shadow: 1px 1px 5px black;
+}
+ul {
+    text-align: left;
+    color: #BBACF2;
+    font-size: large;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold ;
+}
+
+/*Configurações de SubClasses*/
+a:visited {
+    color: darkred;
+}
+a:active {
+    color: darkblue;
+}
+a:hover {
+    text-decoration: underline;
+    color: black ;
+}
+
+/*Pseudo - Elementos*/
+
+a::after {
+    content: 'link';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+a::before {
+    content: 'link';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

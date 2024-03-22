@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(../fontes/idroid.otf) format(opentype);
+    font-size: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Esqueleto principal*/
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+/*div {
+    border: 1px solid black;
+}
+section {
+    border: 1px solid black;
+}*/
+
+/*Cabeçalho*/
+
+header {
+    background-image: linear-gradient(to top, #1A5C38 5%, #2FA866);
+}
+ /*Cabeçalho - seção 1*/
+section#cabeçalho {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+section#cabeçalho > div > h1 {
+    color: #fff;
+    font-weight: normal;
+    font-size: bold;
+    border: 1px 1px 1px #ffffff9d;
+}
+
+section#cabeçalho > div > p {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.457);
+    
+}
+section#cabeçalho > div > p > span {
+    display: block;
+}
+
+/*Cabeçalho - seção 2*/
+
+section#menu {
+    margin: auto;
+    text-align: left;
+    padding: 5px 5px 5px 20px;
+}
+section#menu > nav {
+    /*border: 1px solid black;*/
+    padding: 5px;
+    margin: auto;
+}
+section#menu > nav > a {
+    /*border: 1px solid black;*/
+    padding: 5px 5px 5px 10px;
+    font-size: larger;
+    text-decoration: none;
+    color: #fff;
+
+}
+section#menu > nav > a:hover {
+    background-color: #84e1ac71;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.348);
+}
+
+
+/*Corpo*/
+
+main {
+    background-color: #fff;
+    margin: auto;
+    width: 850px;
+    padding: 0px;
+}
+
+/*Corpo - sessão mascote*/
+div#esqueleto {
+    margin: auto;
+    width: auto;
+    padding: 0px;
+}
+div#esqueleto > section#mascote > div {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+div#esqueleto > section#mascote > div > h2 {
+    font-family: 'idroid';
+    text-align: left;
+    padding: 5px;
+}
+div#esqueleto > section#mascote > div > h3 {
+    font-family: 'idroid';
+    text-align: left;
+    padding: 5px;
+}
+div#esqueleto > section#mascote > div > p {
+    text-align: justify;
+    padding: 5px;
+    margin: auto;
+    padding: 10px;
+}
+div#esqueleto > section#mascote > div > picture {
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+/*Corpo - Sessão video*/
+div#lombar {
+    margin: auto;
+    padding: 0px;
+
+}
+div#lombar > section#video {
+    height: 420px;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+    background-color: #1A5C38;
+}
+
+div#lombar > section#video > iframe {
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    height: 400px;
+}
+
+/*Corpo - sessão lista*/
+div#joelhos {
+    margin: auto;
+    padding: 10px;
+}
+div#joelhos > section#lista {
+    margin: auto;
+}
+div#joelhos > section#lista > div {
+    margin: auto;
+    padding: 10px;
+}
+div#joelhos > section#lista > div > div#tabela {
+    margin: auto;
+}
+div#joelhos > section#lista > div > div#tabela > .tabela {
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.469);
+}
+
+div#joelhos > section#lista > div > div#tabela > div#cabeça{
+    background-color: #2FA866;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+div#joelhos > section#lista > div > div#tabela > div#corpo{
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+div#joelhos > section#lista > div > div#tabela > div#corpo > div {
+    display: flex;
+    margin: auto;
+}
+div#joelhos > section#lista > div > div#tabela > div#corpo > div > span#um { 
+    padding: 10px;
+    margin-right: 200px;
+}
+div#joelhos > section#lista > div > div#tabela > div#corpo > div > span#dois {
+    padding: 10px;
+    margin-right: 0px;
+}
+/*Rodapé*/
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+footer > p > span {
+    font-weight: bold;
+} 
+
+
+
+
+
+

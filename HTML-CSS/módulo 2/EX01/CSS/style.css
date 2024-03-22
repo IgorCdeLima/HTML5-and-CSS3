@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(-90deg,#7f25c4, #4A26C4, black)
+}
+h1 {
+    background-image: linear-gradient(-90deg, #7E25C4, #4A26C4, rgba(0, 0, 0, 0.500));
+    color: #2534C4;
+}

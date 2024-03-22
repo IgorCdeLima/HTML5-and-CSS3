@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"NOGAMENOLIFE" ;
+    src: url(../fonts/no_game_no_life_logo_font__free_dl__by_japanyoshi-d7o4t6u.ttf) format(truetype);
+    font-weight: normal;
+    font-size: normal;
+}
+* {
+    font-family: "NOGAMENOLIFE", 'Times New Roman', Times, serif ;
+}
+body {
+    background-color: #4d4d4d;
+}
+main {
+    background-color: rgba(0, 0, 139, 0.598);
+    width: 400px;
+    padding: 10px;
+    box-shadow:1px 1px 15px black;
+    border-radius: 10px;
+    margin: auto;
+}
+h1 {
+    color: #fff;
+    box-shadow: 1px, 1px 7px black;
+    text-align: center;
+}   
+h1#principal{
+    background-color: black;
+    color: #fff;
+    box-shadow: 1px 1px 7px darkmagenta;
+    text-align: center;
+    border-radius: 5px;
+}
+p {
+    color: #fff;
+    font-size: large;
+    text-align: center;
+}
+.paragrafos {
+    background-color: #ffffff40;  
+    border-radius: 5px;  
+}

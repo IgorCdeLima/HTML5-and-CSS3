@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'no game no life';
+    src: url(../fonts/no_game_no_life_logo_font__free_dl__by_japanyoshi-d7o4t6u.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'no game no life', 'Times', 'serif';
+}
